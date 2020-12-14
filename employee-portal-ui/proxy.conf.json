@@ -1,0 +1,6 @@
+{
+  "/api/v1/employees": {
+    "target": "http://localhost:8082",
+    "secure": false
+  }
+}
