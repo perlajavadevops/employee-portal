@@ -11,16 +11,7 @@ In order to employee-portal-service we need to follow below steps
 		2. maven3.6.2 or maven3.6.3
 2. clone project from git or download the code.
 3. create 'demo' database in mysql
-4. create employees in 'demo' database.
-		CREATE TABLE employees1 (
-			emp_id int NOT NULL AUTO_INCREMENT,
-			first_name varchar(45) DEFAULT NULL,
-			last_name varchar(45) DEFAULT NULL,
-			gender varchar(45) DEFAULT NULL,
-			dop varchar(45) DEFAULT NULL,
-			department varchar(45) DEFAULT NULL,
-			PRIMARY KEY (emp_id)
-		) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+4. create employees in 'demo' database using employees.sql file.
 5. Navigate to employee-portal-service and run mvn clean install
 6. to run the spring boot application navigate to target/ folder and use below command
 	java -jar employee-portal-service-0.0.1-SNAPSHOT.jar
