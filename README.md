@@ -22,7 +22,6 @@ In order to employee-portal-service we need to follow below steps
 In order to employee-portal-ui we need to follow below steps
 1. To run employee-portal-ui we must have follwoing softwares
 	1. node js(install nodejs in your local machine)
-2. clone project from git or download the code.
 3. Navigate to employee-portal-ui and Install npm by running npm install
 4. run npm start
 5. http://localhost:4200
